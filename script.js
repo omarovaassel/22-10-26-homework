@@ -17,7 +17,7 @@
 
 function sameNumber(num) {
     let array = ("" + num).split(""); // каждую цифру разбиваю на массив
-    let array = num
+
     for(let i = 0; i < array.length-1; i++) {
         if(array[i] !== array[i + 1]) {
             return false;
